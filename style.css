@@ -15,7 +15,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     transition: all .2s linear;
 }
 
@@ -370,6 +370,12 @@ header .navbar ul li a:hover{
     padding-right: 1rem;
     color:var(--yellow);
 }
+.contact .row .content .info h3 a{
+    color: white;
+}
+.contact .row .content .info h3 a:hover{
+    color: rgb(22, 228, 32);
+}
 
 .top{
     position: fixed;
@@ -457,4 +463,5 @@ header .navbar ul li a:hover{
      font-size: 20pt;
      color:#eee;
      text-align: center;
+     text-shadow:10px 10px rgb(3, 3, 3);
  }
