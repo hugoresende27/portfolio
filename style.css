@@ -2,9 +2,21 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');*/
 /*@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&family=Urbanist:wght@200&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200&family=Urbanist:wght@200&display=swap');*/
+
+
+/*cores
+8EE4AF -- azul
+edf5e1 -- branco
+5cdb95 -- verde azulado
+#907163 -- castanho
+#379683  -- azul verde
+8d8741 -- dourado
+daa520 -- dourado2
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200&family=Urbanist:wght@200&display=swap');
 :root{
-    --yellow:#09772e;
+    --yellow:#daa520;
 }
 
 *{
@@ -17,6 +29,7 @@
     outline: none; border:none;
     /*text-transform: capitalize;*/
     transition: all .2s linear;
+    
 }
 
 *::selection{
@@ -25,6 +38,7 @@
 }
 
 html{
+    
     font-size: 62.5%;
     overflow-x: hidden;
 }
@@ -158,6 +172,7 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
+    
 }
 
 .home h3{
