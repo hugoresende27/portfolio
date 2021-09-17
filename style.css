@@ -472,11 +472,10 @@ header .navbar ul li a:hover{
 
  .titulos_portefolio{
      position: absolute;
-     padding: 7px 0px 0px 25px;
+     padding: 10px; 
      font-family: 'Courier New', Courier, monospace;
      font-weight: 900;
      font-size: 20pt;
      color:#eee;
      text-align: center;
-     text-shadow:10px 10px rgb(3, 3, 3);
  }
