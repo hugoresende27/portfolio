@@ -1,0 +1,128 @@
+/*article#album{
+    position: block;
+    float: left;
+    margin-top: -50px;
+     
+}*/
+/*
+h1.ranks{
+    background-color: #daa520;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0e0f0c;
+    font-size: 15pt;
+    border-radius: 50px;
+    text-align: center;
+    /*margin-top: 170px;*/
+h1.titulos 
+{
+    color:white;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 800;
+    text-align: center;
+}
+     
+
+ul#album-fotos{        /*criou -se uma lista em html, depois com css a lista ficou com o formato de quadrados a flutuar*/
+    width: auto;   /*no ecra. mudou-se por fim o background de cada quadrado atraves do url, cada <li> levou um id*/
+    margin: 0px;    /*e assim usa-se ul#album-fotos li#foto01{ */
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    height: 775px;  
+}
+
+ul#album-fotos li{
+    float:left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid branco;
+    background-color: #8d8741;
+    box-shadow: 1px 1px 3px #daa520;
+    /*-webkit-transition: all .4s ease-in;        /*efeito webkit para o zoom */
+}
+
+ul#album-fotos li span{     /*para tornar a legenda invisivel*/
+    opacity:0;              /*opacity 0*/
+    color: #edf5e1;
+    text-shadow: 1px 1px 1px #907163;
+    background-color: #daa520;
+    font-size: 11pt;
+    line-height: 0px;     /*coloca a legenda no fundo*/
+    padding: 5px;
+
+}
+
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+    cursor: pointer;
+    
+}
+
+
+
+
+ul#album-fotos li#foto01{
+    background: url("/images/js_hrnum.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
+
+ul#album-fotos li#foto02{
+    background: url("/images/js_listaTodo.png");
+    background-position: auto;       /*centra a imagem a meio*/
+    background-size: 200px 200px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
+
+ul#album-fotos li#foto03{
+    background: url("/images/js_calc.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
+
+ul#album-fotos li#foto04{
+    background: url("/images/js_small_pro.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
+
+ul#album-fotos li#foto05{
+    background: url("../img/nr5.png");
+    background-position: auto;
+    background-size: 280px 280px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
