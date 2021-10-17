@@ -63,7 +63,7 @@ ul#album-fotos li:hover{
 
 
 ul#album-fotos li#foto01{
-    background: url("/images/js_hrnum.png");
+    background: url("../images/js_hrnum.png");
     background-position: auto;
     background-size: 200px 200px;
     background-color: aliceblue;
@@ -76,7 +76,7 @@ ul#album-fotos li#foto01:hover{
 }
 
 ul#album-fotos li#foto02{
-    background: url("/images/js_listaTodo.png");
+    background: url("../images/js_listaTodo.png");
     background-position: auto;       /*centra a imagem a meio*/
     background-size: 200px 200px;
     background-color: aliceblue;
@@ -89,7 +89,7 @@ ul#album-fotos li#foto02:hover{
 }
 
 ul#album-fotos li#foto03{
-    background: url("/images/js_calc.png");
+    background: url("../images/js_calc.png");
     background-position: auto;
     background-size: 200px 200px;
     background-color: aliceblue;
@@ -102,7 +102,7 @@ ul#album-fotos li#foto03:hover{
 }
 
 ul#album-fotos li#foto04{
-    background: url("/images/js_small_pro.png");
+    background: url("../images/js_small_pro.png");
     background-position: auto;
     background-size: 200px 200px;
     background-color: aliceblue;
