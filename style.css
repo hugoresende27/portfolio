@@ -479,3 +479,11 @@ header .navbar ul li a:hover{
      color:#eee;
      text-align: center;
  }
+
+
+/*efeito hover foto perfil*/
+#foto_perfil:hover{
+    -webkit-transform: scale(1.5);
+    cursor: pointer;
+    
+}
