@@ -115,7 +115,7 @@ ul#album-fotos li#foto04:hover{
 }
 
 ul#album-fotos li#foto05{
-    background: url("../img/nr5.png");
+    background: url("images/js_album_fotos.png");
     background-position: auto;
     background-size: 280px 280px;
     background-color: aliceblue;
