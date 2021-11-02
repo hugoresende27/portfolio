@@ -126,3 +126,16 @@ ul#album-fotos li#foto05:hover{
     background-size: 200px 200px;
 
 }
+ul#album-fotos li#foto06{
+    background: url("images/js_passo_passo.png");
+    background-position: auto;
+    background-size: 175px 175px;
+    
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
