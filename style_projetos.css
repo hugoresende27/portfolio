@@ -139,3 +139,16 @@ ul#album-fotos li#foto06:hover{
     background-size: 200px 200px;
 
 }
+ul#album-fotos li#foto07{
+    background: url("images/js_nav_rot.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto07:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+}
