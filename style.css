@@ -398,6 +398,7 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
+/*/////////////////////////////////////////////////////////////////*/
 
 
 /* media queries  */
@@ -443,6 +444,7 @@ header .navbar ul li a:hover{
  }
 
 @media (max-width:400px){
+ 
 
     header{
         width: 100vw;
@@ -470,15 +472,15 @@ header .navbar ul li a:hover{
 
  }
 
- .titulos_portefolio{
+.titulos_portefolio
+{
      position: absolute;
      padding: 10px; 
      font-family: 'Courier New', Courier, monospace;
      font-weight: 900;
      font-size: 20pt;
      color:#eee;
-     text-align: center;
- }
+     text-align: center;}
 
 
 /*efeito hover foto perfil*/

@@ -13,6 +13,11 @@ h1.ranks{
     border-radius: 50px;
     text-align: center;
     /*margin-top: 170px;*/
+
+#album
+{
+    margin-top: -50px;
+}
 h1.titulos 
 {
     color:white;
@@ -36,10 +41,10 @@ ul#album-fotos li{
     width: 200px;
     height: 200px;
     margin: 10px;
-    border: 5px solid branco;
+    border: 2px solid rgb(249, 253, 250);
     background-color: #8d8741;
     box-shadow: 1px 1px 3px #daa520;
-    /*-webkit-transition: all .4s ease-in;        /*efeito webkit para o zoom */
+    -webkit-transition: all .4s ease-in;        /*efeito webkit para o zoom */
 }
 
 ul#album-fotos li span{     /*para tornar a legenda invisivel*/
@@ -165,3 +170,13 @@ ul#album-fotos li#foto08:hover{
     background-size: 200px 200px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    ul#album-fotos li {
+        float:left;
+        width: 100px;
+        height: 100px;
+       
+      
+    }
+  }
