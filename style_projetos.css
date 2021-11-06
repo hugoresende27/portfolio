@@ -194,6 +194,18 @@ ul#album-fotos li#foto10:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+ul#album-fotos li#foto11{
+    background: url("images/js_autocarro.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto11:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
