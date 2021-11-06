@@ -33,7 +33,7 @@ ul#album-fotos{        /*criou -se uma lista em html, depois com css a lista fic
     padding: 50px;
     overflow: hidden;
     list-style: none;
-    height: 775px;  
+    /*height: 775px;  */
 }
 
 ul#album-fotos li{
@@ -181,7 +181,18 @@ ul#album-fotos li#foto09{
 ul#album-fotos li#foto09:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
+}
+ul#album-fotos li#foto10{
+    background: url("images/js_noite_dia.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
 
+ul#album-fotos li#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -189,7 +200,5 @@ ul#album-fotos li#foto09:hover{
         float:left;
         width: 100px;
         height: 100px;
-       
-      
     }
   }
