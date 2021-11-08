@@ -226,6 +226,18 @@ ul#album-fotos li#foto13{
     background-color: aliceblue;
 }
 
+ul#album-fotos li#foto14:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto14{
+    background: url("images/js_jokes.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
 ul#album-fotos li#foto13:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
