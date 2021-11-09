@@ -12,11 +12,15 @@ edf5e1 -- branco
 #379683  -- azul verde
 8d8741 -- dourado
 daa520 -- dourado2
+background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200&family=Urbanist:wght@200&display=swap');
 :root{
-    --yellow:#daa520;
+   /* --yellow: linear-gradient(315deg, #0ba01c 0%, #184414 74%);*/
+   --yellow: #8EE4AF;
 }
 
 *{
@@ -229,7 +233,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width:20rem;
+    /*width:20rem;*/
     background:#222;
     text-align: center;
     padding: 2rem;
