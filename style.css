@@ -20,7 +20,7 @@ background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200&family=Urbanist:wght@200&display=swap');
 :root{
    /* --yellow: linear-gradient(315deg, #0ba01c 0%, #184414 74%);*/
-   --yellow: #8EE4AF;
+   --yellow: #daa520;
 }
 
 *{
@@ -87,6 +87,7 @@ section{
 
 .btn:hover{
     background:var(--yellow);
+    
 }
 
 .heading{
@@ -108,7 +109,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background: goldenrod;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,7 +123,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.7rem solid black;
 }
 
 header .user .name{
@@ -136,7 +137,7 @@ header .user .post{
 }
 
 header .navbar{
-    width:100%;
+    width:90%;
 }
 
 header .navbar ul{
@@ -157,7 +158,18 @@ header .navbar ul li a{
 
 header .navbar ul li a:hover{
     background:var(--yellow);
+    color: #111;
+    font-weight: 800;
+    transform: scale(1.2);
+    border: 3px solid black;
 }
+
+div .box.caixas:hover{
+    transform: scale(1.5);
+    border-radius: 20px;
+}
+
+
 
 #menu{
     position: fixed;
@@ -234,7 +246,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box{
     /*width:20rem;*/
-    background:#222;
+    background: goldenrod;
     text-align: center;
     padding: 2rem;
     margin:2rem;
@@ -242,7 +254,8 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color:var(--yellow);
+    color:black;
+    font-weight: 600;
 }
 
 .about .row .counter .box h3{
@@ -324,8 +337,8 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box:hover img{
-    transform: scale(0.6);
-    border-radius: 100px;
+    transform: scale(0.5);
+    border-radius: 50%;
 
     
 }
