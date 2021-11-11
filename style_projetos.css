@@ -290,6 +290,42 @@ ul#album-fotos li#foto18:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+ul#album-fotos li#foto19{
+    background: url("images/js_contFollo.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto19:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto20{
+    background: url("images/js_coposAgua.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto20:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto21{
+    background: url("images/filmes_api.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto21:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
