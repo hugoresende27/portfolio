@@ -430,6 +430,8 @@ div .box.caixas:hover{
         padding:1rem 4rem;
     }
 
+  
+
 }
 
 @media (max-width:991px){
@@ -487,7 +489,30 @@ div .box.caixas:hover{
         margin:3rem 0;
     }
 
- }
+    #relogio{
+        /* visibility: hidden; */
+    }
+
+}
+
+
+  @media(max-width: 480px)        /*para ecras mais pequenos*/
+  {
+    
+  
+  }
+  
+  @media (max-width: 800px)
+  {
+     
+    
+  
+  }
+  
+  
+    
+
+
 
 .titulos_portefolio
 {
@@ -505,4 +530,69 @@ div .box.caixas:hover{
     -webkit-transform: scale(1.5);
     cursor: pointer;
     
+}
+
+/*RELÓGIO */
+#relogio{
+    border: 2px solid #fff;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.relogio {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /* background-color: #fff; */
+}
+
+.ponteiro{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 65px;
+    width: 3px;
+    transform-origin: bottom center;
+    transition: all 0.5s ease-in;
+}
+
+.ponteiro.horas{
+    transform: translate(-50%, -100%) rotate(0deg);
+}
+.ponteiro.minutos{
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+}
+.ponteiro.segundos{
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+    background-color: #e74c3c;
+}
+
+.centro{/*CENTRO VERMELHO*/
+    background-color: #e74c3c;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.centro::after{/*PONTO PRETO DENTRO DO CENTRO VERMELHO*/
+    content: '';
+    background-color: var(--primary-cor);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
 }
