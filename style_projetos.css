@@ -326,6 +326,30 @@ ul#album-fotos li#foto21:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+ul#album-fotos li#foto22{
+    background: url("images/js_fotoSlider.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto22:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto23{
+    background: url("images/js_relogio.png");
+    background-position: auto;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto23:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
