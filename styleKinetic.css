@@ -1,0 +1,49 @@
+.kinetic{
+    position: relative; /*CLASSE PAI*/
+    height: 80px;
+    width: 80px;
+}
+
+.kinetic::after, .kinetic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #fff;
+    /* border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff; */
+
+    animation: rotacaoA 2s linear infinite 0.5s;
+}
+
+.kinetic::before {
+    transform: rotate(90deg);
+    animation: rotacaoB 2s linear infinite;
+}
+
+@keyframes rotacaoA {
+    0%, 25% {
+        transform: rotate(0deg);
+    }
+    50%, 75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotacaoB {
+    0%, 25% {
+        transform: rotate(90deg);
+    }
+    50%, 75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(450deg);
+    }
+}

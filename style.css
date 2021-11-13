@@ -418,6 +418,95 @@ div .box.caixas:hover{
 /*/////////////////////////////////////////////////////////////////*/
 
 
+.titulos_portefolio
+{
+     position: absolute;
+     padding: 10px; 
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 900;
+     font-size: 20pt;
+     color:#eee;
+     text-align: center;}
+
+
+/*efeito hover foto perfil*/
+#foto_perfil:hover{
+    -webkit-transform: scale(1.5);
+    cursor: pointer;
+    
+}
+
+/*RELÓGIO /////////////////////////////////////////////////////////////////////////////////////////*/
+#relogio{
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    margin-bottom: 40px;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.relogio {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    /* background-color: #fff; */
+}
+
+.ponteiro{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    width: 3px;
+    transform-origin: bottom center;
+    transition: all 0.5s ease-in;
+}
+
+.ponteiro.horas{
+    transform: translate(-50%, -100%) rotate(0deg);
+}
+.ponteiro.minutos{
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 50px;
+}
+.ponteiro.segundos{
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 50px;
+    background-color: #e74c3c;
+}
+
+.centro{/*CENTRO VERMELHO*/
+    background-color: #e74c3c;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.centro::after{/*PONTO PRETO DENTRO DO CENTRO VERMELHO*/
+    content: '';
+    background-color: var(--primary-cor);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+/*KINETIC//////////////////////////////////////////////////*/
+#kinetic{
+    top:1.7em;
+    left: 40%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////
 /* media queries  */
 
 @media (max-width:1200px){
@@ -492,6 +581,10 @@ div .box.caixas:hover{
     #relogio{
         /* visibility: hidden; */
     }
+    #kinetic{
+        top:1.7em;
+        left: 35%;
+    }
 
 }
 
@@ -509,90 +602,3 @@ div .box.caixas:hover{
   
   }
   
-  
-    
-
-
-
-.titulos_portefolio
-{
-     position: absolute;
-     padding: 10px; 
-     font-family: 'Courier New', Courier, monospace;
-     font-weight: 900;
-     font-size: 20pt;
-     color:#eee;
-     text-align: center;}
-
-
-/*efeito hover foto perfil*/
-#foto_perfil:hover{
-    -webkit-transform: scale(1.5);
-    cursor: pointer;
-    
-}
-
-/*RELÓGIO */
-#relogio{
-    border: 2px dashed #fff;
-    border-radius: 50%;
-    width: 105px;
-    height: 105px;
-    margin-bottom: 40px;
-    position: absolute;
-    top:20px;
-    right: 20px;
-}
-
-.relogio {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    /* background-color: #fff; */
-}
-
-.ponteiro{
-    background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 40px;
-    width: 3px;
-    transform-origin: bottom center;
-    transition: all 0.5s ease-in;
-}
-
-.ponteiro.horas{
-    transform: translate(-50%, -100%) rotate(0deg);
-}
-.ponteiro.minutos{
-    transform: translate(-50%, -100%) rotate(0deg);
-    height: 50px;
-}
-.ponteiro.segundos{
-    transform: translate(-50%, -100%) rotate(0deg);
-    height: 50px;
-    background-color: #e74c3c;
-}
-
-.centro{/*CENTRO VERMELHO*/
-    background-color: #e74c3c;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-}
-.centro::after{/*PONTO PRETO DENTRO DO CENTRO VERMELHO*/
-    content: '';
-    background-color: var(--primary-cor);
-    width: 5px;
-    height: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-}

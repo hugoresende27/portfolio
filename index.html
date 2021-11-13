@@ -10,6 +10,8 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleKinetic.css">
+    <link rel="stylesheet" href="styleRipple.css">
 
 </head>
 <body>
@@ -27,11 +29,11 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>       
+            <li><a href="#home" class="ripple">home</a></li>
+            <li><a href="#about"class="ripple">about</a></li>
+            <li><a href="#education"class="ripple">education</a></li>
+            <li><a href="#portfolio"class="ripple">portfolio</a></li>
+            <li><a href="#contact"class="ripple">contact</a></li>       
         </ul>
     </nav>
 
@@ -44,6 +46,7 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
+   
     <div id=relogio>
         <div class="relogio">
             <div class="ponteiro horas"></div>
@@ -57,6 +60,7 @@
     <h1>I'M <span>Hugo Resende</span></h1>
     <p>Junior Software Developer, student of programming and web developer, here are something about me, my education and some of my projects...
     </p>
+    <div class="kinetic" id="kinetic"></div>
     <!-- <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a> -->
     <a name="hom">
 </section>
@@ -107,7 +111,7 @@
         
 
         <div class="box caixas">
-            <a href="https://github.com/hugoresende27/HTML_CSS_Modulo_0793" target="_blank"><span>HTML 5</span>
+            <a href="https://github.com/hugoresende27/HTML_CSS_Modulo_0793" target="_blank" ><span>HTML 5</span>
             <span>CSS</span> </a>
         </div>
 
@@ -292,6 +296,7 @@
 <!-- custom js file link  -->
 <script src="script.js"></script>
 <script src="relogio.js"></script>
+<script src="ripples.js"></script>
 
 </body>
 </html>
