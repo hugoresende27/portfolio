@@ -534,10 +534,10 @@ div .box.caixas:hover{
 
 /*RELÓGIO */
 #relogio{
-    border: 2px solid #fff;
-    width: 205px;
-    height: 205px;
+    border: 2px dashed #fff;
     border-radius: 50%;
+    width: 105px;
+    height: 105px;
     margin-bottom: 40px;
     position: absolute;
     top:20px;
@@ -546,8 +546,8 @@ div .box.caixas:hover{
 
 .relogio {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     /* background-color: #fff; */
 }
 
@@ -556,7 +556,7 @@ div .box.caixas:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 65px;
+    height: 40px;
     width: 3px;
     transform-origin: bottom center;
     transition: all 0.5s ease-in;
@@ -567,11 +567,11 @@ div .box.caixas:hover{
 }
 .ponteiro.minutos{
     transform: translate(-50%, -100%) rotate(0deg);
-    height: 100px;
+    height: 50px;
 }
 .ponteiro.segundos{
     transform: translate(-50%, -100%) rotate(0deg);
-    height: 100px;
+    height: 50px;
     background-color: #e74c3c;
 }
 
