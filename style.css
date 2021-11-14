@@ -456,7 +456,7 @@ div .box.caixas:hover{
 }
 
 .ponteiro{
-    background-color: #fff;
+    background-color: greenyellow;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -502,8 +502,9 @@ div .box.caixas:hover{
 }
 /*KINETIC//////////////////////////////////////////////////*/
 #kinetic{
-    top:1.7em;
-    left: 40%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
 }
 
 /*///////////////////////////////////////////////////////////////////////////

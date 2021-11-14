@@ -60,7 +60,23 @@
     <h1>I'M <span>Hugo Resende</span></h1>
     <p>Junior Software Developer, student of programming and web developer, here are something about me, my education and some of my projects...
     </p>
-    <div class="kinetic" id="kinetic"></div>
+
+    <div id="kinetic">
+        <script>
+            for (let i=0; i<38;i++)
+            {
+                const kine = document.getElementById('kinetic')
+                const k = document.createElement('div')
+                kine.appendChild(k)
+                k.classList.add('kinetic')
+            }
+    
+        </script>
+    
+        <!-- <div class="kinetic" ></div> -->
+     
+        
+    </div>
     <!-- <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a> -->
     <a name="hom">
 </section>
@@ -265,7 +281,7 @@
 
     </div>
 
-    <form action="">
+    <form action="mailto:hugoresende27@gmail.com" method="post" enctype="text/plain">
 
         <input type="text" placeholder="name" class="box">
         <input type="email" placeholder="email" class="box">
