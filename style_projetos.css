@@ -423,7 +423,7 @@ ul#album-fotos li#foto29:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto30{
-    background: url("images/js_verticalSlider.png");
+    background: url("./images/js_verticalSlider.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
