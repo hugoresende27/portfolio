@@ -394,7 +394,7 @@ ul#album-fotos li#foto27{
     background-color: aliceblue;
 }
 
-ul#album-fotos li#foto28:hover{
+ul#album-fotos li#foto27:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }
@@ -406,7 +406,7 @@ ul#album-fotos li#foto28{
     background-color: aliceblue;
 }
 
-ul#album-fotos li#foto29:hover{
+ul#album-fotos li#foto28:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }
@@ -418,7 +418,19 @@ ul#album-fotos li#foto29{
     background-color: aliceblue;
 }
 
-ul#album-fotos li#foto27:hover{
+ul#album-fotos li#foto29:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+ul#album-fotos li#foto30{
+    background: url("images/js_verticalSlider.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto30:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }

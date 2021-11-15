@@ -505,6 +505,9 @@ div .box.caixas:hover{
     display: flex;
     flex-direction: row;
     margin: 0;
+    float: left;
+    height: 10px;
+    
 }
 
 /*///////////////////////////////////////////////////////////////////////////
@@ -582,9 +585,9 @@ div .box.caixas:hover{
     #relogio{
         /* visibility: hidden; */
     }
+    
     #kinetic{
-        top:1.7em;
-        left: 35%;
+        visibility: hidden;
     }
 
 }
