@@ -68,14 +68,22 @@
     </p>
     <div id="kinetic">
         <script>
-            for (let i=0; i<38;i++)
-            {
-                const kine = document.getElementById('kinetic')
-                const k = document.createElement('div')
-                kine.appendChild(k)
-                k.classList.add('kinetic')
-            }
-    
+    const kine = document.getElementById('kinetic')        
+        
+    function createLoad()
+    {
+        const k = document.createElement('div')
+        kine.appendChild(k)
+        k.classList.add('kinetic')
+    } 
+    function removeLoad()
+    {
+        kine.remove()
+    } 
+    for (let i=0 ; i<38; i++)
+    {
+        setInterval(createLoad(),3000)  
+    }
         </script>
  
         
