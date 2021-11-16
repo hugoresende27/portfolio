@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styleRipple.css">
 
 </head>
-<body>
+<body onload="move()">
     <base href="index.html"/>
     
 <!-- header section starts  -->
@@ -66,29 +66,13 @@
     <h1>I'M <span>Hugo Resende</span></h1>
     <p>Junior Software Developer, student of programming and web developer, here are something about me, my education and some of my projects...
     </p>
+<div id="exper">
     <div id="kinetic">
-        <script>
-  
-    const kine = document.getElementById('kinetic')        
-        
-    function createLoad()
-    {
-        const k = document.createElement('div')
-        kine.appendChild(k)
-        k.classList.add('kinetic')
-    } 
-    function removeLoad()
-    {
-        kine.remove()
-    } 
-    for (let i=0 ; i<13; i++)
-    {
-        setInterval(createLoad(),10)  
-    }
-    
-        </script>
- 
-        
+
+    <div id="myProgress">
+        <div id="myBar"></div>
+    </div>
+</div>  
     </div>
     <!-- <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a> -->
     <a name="hom">
@@ -326,6 +310,7 @@
 <script src="./scripts/script.js"></script>
 <script src="./scripts/relogio.js"></script>
 <script src="./scripts/ripples.js"></script>
+<script src="./scripts/loadingBar.js"></script>
 
 </body>
 </html>

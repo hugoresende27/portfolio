@@ -14,7 +14,7 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-bottom-color: #daa520;
+    border-bottom-color: #333;
     /* border-top-color: #fff; */
   /*  border-left-color: #fff;
     border-right-color: #fff; */
@@ -25,6 +25,18 @@
     transform: rotate(90deg);
     animation: rotacaoB 2s linear infinite;
 }
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+#myProgress {
+    width: 96%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 40px;
+    background-color: #daa520;
+
+  }
 
 @keyframes rotacaoA {
     0%, 25% {

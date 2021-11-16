@@ -506,9 +506,25 @@ div .box.caixas:hover{
     flex-direction: row;
     margin: 0;
     height: 10px;
+    
 }
 
-/*///////////////////////////////////////////////////////////////////////////
+/*///////////////////////////////////////////////////////////////////////////*/
+#exper{
+   /* display: flex;          /*coloca tudo em linha
+    /*flex-direction: column; /*coloca tudo em coluna*/
+  /*  align-items: center;    /*alinha horizontalmente*/
+   /* justify-content: center;/*alinha tudo verticalmente com uso de height:100vh*/
+   /* height: 100vh; */
+   position: relative;
+}
+#myProgress{
+    position: absolute;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////*/
 /* media queries  */
 
 @media (max-width:1200px){
