@@ -3,6 +3,7 @@
     height: 10px;
     width: 20px;
     margin-top: 50px;
+    margin: 10px 20px;
 }
 
 .kinetic::after, .kinetic::before {
@@ -14,7 +15,7 @@
     height: 0;
     border: 10px solid transparent;
     border-bottom-color: #daa520;
-    border-top-color: #fff;
+    /* border-top-color: #fff; */
   /*  border-left-color: #fff;
     border-right-color: #fff; */
     animation: rotacaoA 2s linear infinite 0.5s;

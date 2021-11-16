@@ -68,7 +68,7 @@ ul#album-fotos li:hover{
 
 
 ul#album-fotos li#foto01{
-    background: url("images/js_hrnum.png");
+    background: url("../images/js_hrnum.png");
     background-position: auto;
     background-size: 100px 100px;
     background-color: aliceblue;
@@ -81,7 +81,7 @@ ul#album-fotos li#foto01:hover{
 }
 
 ul#album-fotos li#foto02{
-    background: url("images/js_listaTodo.png");
+    background: url("../images/js_listaTodo.png");
     background-position: auto;       /*centra a imagem a meio*/
     background-size: 100px 100px;
     background-color: aliceblue;
@@ -94,7 +94,7 @@ ul#album-fotos li#foto02:hover{
 }
 
 ul#album-fotos li#foto03{
-    background: url("images/js_calc.png");
+    background: url("../images/js_calc.png");
     background-position: auto;
     background-size: 100px 100px;
     background-color: aliceblue;
@@ -107,7 +107,7 @@ ul#album-fotos li#foto03:hover{
 }
 
 ul#album-fotos li#foto04{
-    background: url("images/js_small_pro.png");
+    background: url("../images/js_small_pro.png");
     background-position: auto;
     background-size: 100px 100px;
     background-color: aliceblue;
@@ -120,7 +120,7 @@ ul#album-fotos li#foto04:hover{
 }
 
 ul#album-fotos li#foto05{
-    background: url("images/js_album_fotos.png");
+    background: url("../images/js_album_fotos.png");
     background-position: auto;
     background-size: 280px 280px;
     background-color: aliceblue;
@@ -132,7 +132,7 @@ ul#album-fotos li#foto05:hover{
 
 }
 ul#album-fotos li#foto06{
-    background: url("images/js_passo_passo.png");
+    background: url("../images/js_passo_passo.png");
     background-position: auto;
     background-size: 175px 175px;
     
@@ -145,7 +145,7 @@ ul#album-fotos li#foto06:hover{
 
 }
 ul#album-fotos li#foto07{
-    background: url("images/js_nav_rot.png");
+    background: url("../images/js_nav_rot.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ ul#album-fotos li#foto07:hover{
 
 }
 ul#album-fotos li#foto08{
-    background: url("images/js_blur.png");
+    background: url("../images/js_blur.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ ul#album-fotos li#foto08:hover{
 
 }
 ul#album-fotos li#foto09{
-    background: url("images/js_scrollAnimado.png");
+    background: url("../images/js_scrollAnimado.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ ul#album-fotos li#foto09:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto10{
-    background: url("images/js_noite_dia.png");
+    background: url("../images/js_noite_dia.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ ul#album-fotos li#foto10:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto11{
-    background: url("images/js_autocarro.png");
+    background: url("../images/js_autocarro.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ ul#album-fotos li#foto11:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto12{
-    background: url("images/js_loginAni.png");
+    background: url("../images/js_loginAni.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ ul#album-fotos li#foto12:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto13{
-    background: url("images/js_soundBoard.png");
+    background: url("../images/js_soundBoard.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@ ul#album-fotos li#foto13:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto14{
-    background: url("images/js_jokes.png");
+    background: url("../images/js_jokes.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@ ul#album-fotos li#foto14:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto15{
-    background: url("images/js_keyCode.png");
+    background: url("../images/js_keyCode.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ ul#album-fotos li#foto15:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto16{
-    background: url("images/js_perguntas.png");
+    background: url("../images/js_perguntas.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ ul#album-fotos li#foto16:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto17{
-    background: url("images/js_btnGen.png");
+    background: url("../images/js_btnGen.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ ul#album-fotos li#foto17:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto18{
-    background: url("images/js_menuExt.png");
+    background: url("../images/js_menuExt.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@ ul#album-fotos li#foto18:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto19{
-    background: url("images/js_contFollo.png");
+    background: url("../images/js_contFollo.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ ul#album-fotos li#foto19:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto20{
-    background: url("images/js_coposAgua.png");
+    background: url("../images/js_coposAgua.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ ul#album-fotos li#foto20:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto21{
-    background: url("images/filmes_api.png");
+    background: url("../images/filmes_api.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -327,7 +327,7 @@ ul#album-fotos li#foto21:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto22{
-    background: url("images/js_fotoSlider.png");
+    background: url("../images/js_fotoSlider.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -339,7 +339,7 @@ ul#album-fotos li#foto22:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto23{
-    background: url("images/js_relogio.png");
+    background: url("../images/js_relogio.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -351,7 +351,7 @@ ul#album-fotos li#foto23:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto24{
-    background: url("images/js_btnRipple.png");
+    background: url("../images/js_btnRipple.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -363,7 +363,7 @@ ul#album-fotos li#foto24:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto25{
-    background: url("images/js_DragDrop.png");
+    background: url("../images/js_DragDrop.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -375,7 +375,7 @@ ul#album-fotos li#foto25:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto26{
-    background: url("images/js_canvasDraw.png");
+    background: url("../images/js_canvasDraw.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -387,7 +387,7 @@ ul#album-fotos li#foto26:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto27{
-    background: url("images/js_kinetic.png");
+    background: url("../images/js_kinetic.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -399,7 +399,7 @@ ul#album-fotos li#foto27:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto28{
-    background: url("images/cartaoVisita.png");
+    background: url("../images/cartaoVisita.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -411,7 +411,7 @@ ul#album-fotos li#foto28:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto29{
-    background: url("images/js_navMenu.png");
+    background: url("../images/js_navMenu.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -423,7 +423,7 @@ ul#album-fotos li#foto29:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto30{
-    background: url("./images/js_verticalSlider.png");
+    background: url("./../images/js_verticalSlider.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@ ul#album-fotos li#foto30:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto31{
-    background: url("./images/js_notificacao.png");
+    background: url("./../images/js_notificacao.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -447,7 +447,7 @@ ul#album-fotos li#foto31:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto32{
-    background: url("./images/js_clickAnimado.png");
+    background: url("./../images/js_clickAnimado.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
