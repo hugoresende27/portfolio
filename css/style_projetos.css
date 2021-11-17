@@ -423,7 +423,7 @@ ul#album-fotos li#foto29:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto30{
-    background: url("./../images/js_verticalSlider.png");
+    background: url("../images/js_verticalSlider.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@ ul#album-fotos li#foto30:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto31{
-    background: url("./../images/js_notificacao.png");
+    background: url("../images/js_notificacao.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -447,7 +447,7 @@ ul#album-fotos li#foto31:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto32{
-    background: url("./../images/js_clickAnimado.png");
+    background: url("../images/js_clickAnimado.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -459,7 +459,7 @@ ul#album-fotos li#foto32:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto33{
-    background: url("./../images/js_animatedText.png");
+    background: url("../images/js_animatedText.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -471,7 +471,7 @@ ul#album-fotos li#foto33:hover{
     background-size: 100px 100px;
 }
 ul#album-fotos li#foto34{
-    background: url("./../images/js_passGenerator.png");
+    background: url("../images/js_passGenerator.png");
     background-position: auto;
     background-size: 100px 100px;
     background-repeat: no-repeat;
