@@ -2,8 +2,9 @@
     position: relative; /*CLASSE PAI*/
     height: 10px;
     width: 20px;
-    margin-top: 50px;
-    margin: 10px 20px;
+    margin: 5px;
+    left: 50%;
+    transform: translateX(-100%);
 }
 
 .kinetic::after, .kinetic::before {
@@ -13,11 +14,11 @@
     left: 0;
     width: 0;
     height: 0;
-    border: 10px solid transparent;
+    border: 15px solid transparent;
     border-bottom-color: #333;
     /* border-top-color: #fff; */
-  /*  border-left-color: #fff;
-    border-right-color: #fff; */
+  /*  border-left-color: #fff;*/
+   /* border-right-color: #fff; */
     animation: rotacaoA 2s linear infinite 0.5s;
 }
 
@@ -25,17 +26,24 @@
     transform: rotate(90deg);
     animation: rotacaoB 2s linear infinite;
 }
+
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 #myProgress {
-    width: 96%;
+    width: 97%;
     background-color: grey;
+    border-radius: 30px;
   }
   
   #myBar {
     width: 1%;
     height: 40px;
     background-color: #daa520;
-
+    border-radius: 30px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 900;
+    color: black;
   }
 
 @keyframes rotacaoA {

@@ -21,7 +21,8 @@ h1.ranks{
 h1.titulos 
 {
     color:white;
-    font-family: 'Azeret Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+    font-size: 35px;
     font-weight: 800;
     text-align: center;
 }
