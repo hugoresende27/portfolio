@@ -1,9 +1,9 @@
 const textEl = document.getElementById('texto')
 
-const text = "Junior Software Developer, student of programming and web developer, here are something about me, my education and some of my projects... "
+const text = "Hugo Resende"
 
 let index = 1
-let speed = 30 
+let speed = 350 
 
 escreveTexto()
 

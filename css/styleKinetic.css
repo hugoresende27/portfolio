@@ -32,9 +32,9 @@
     width: 97%;
     background-color: grey;
     border-radius: 30px;
-  }
-  
-  #myBar {
+}
+
+#myBar {
     width: 1%;
     height: 40px;
     background-color: #daa520;
@@ -44,7 +44,12 @@
     font-family: 'Inconsolata', sans-serif;
     font-weight: 900;
     color: black;
-  }
+}
+
+#exper {
+    margin-top: 20rem;
+    margin-bottom: 0;
+}
 
 @keyframes rotacaoA {
     0%, 25% {
