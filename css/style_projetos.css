@@ -543,6 +543,30 @@ ul#album-fotos li#foto39:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }
+ul#album-fotos li#foto40{
+    background: url("../images/pokemonAPI.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto40:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+ul#album-fotos li#foto41{
+    background: url("../images/mobileUI.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto41:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
