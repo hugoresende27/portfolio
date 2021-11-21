@@ -567,6 +567,30 @@ ul#album-fotos li#foto41:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }
+ul#album-fotos li#foto42{
+    background: url("../images/js_passBlurCheck.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto42:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+ul#album-fotos li#foto43{
+    background: url("../images/js_3Dbox.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto43:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
