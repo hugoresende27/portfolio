@@ -663,6 +663,30 @@ ul#album-fotos li#foto49:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }
+ul#album-fotos li#foto50{
+    background: url("../images/js_imgFeed.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto50:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+ul#album-fotos li#foto51{
+    background: url("../images/js_Reviews.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto51:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
