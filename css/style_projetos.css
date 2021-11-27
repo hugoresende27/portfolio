@@ -687,6 +687,30 @@ ul#album-fotos li#foto51:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 }
+ul#album-fotos li#foto52{
+    background: url("../images/js_toDos.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto52:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+ul#album-fotos li#foto53{
+    background: url("../images/jsInsectGame.png");
+    background-position: auto;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto53:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
 
 @media only screen and (max-width: 600px) {
     ul#album-fotos li {
