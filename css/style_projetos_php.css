@@ -1,0 +1,91 @@
+#album
+{
+    margin-top: -50px;
+}
+h1.titulos 
+{
+    color:white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+     
+
+ul#album-fotos{        /*criou -se uma lista em html, depois com css a lista ficou com o formato de quadrados a flutuar*/
+    width: auto;   /*no ecra. mudou-se por fim o background de cada quadrado atraves do url, cada <li> levou um id*/
+    margin: 0px;    /*e assim usa-se ul#album-fotos li#foto01{ */
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    /*height: 775px;  */
+}
+
+ul#album-fotos li{
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid rgb(249, 253, 250);
+    background-color: #8d8741;
+    box-shadow: 1px 1px 3px #daa520;
+    -webkit-transition: all .4s ease-in;        /*efeito webkit para o zoom */
+}
+
+ul#album-fotos li span{     /*para tornar a legenda invisivel*/
+    opacity:0;              /*opacity 0*/
+    color: #edf5e1;
+    text-shadow: 1px 1px 1px #907163;
+    background-color: #daa520;
+    font-size: 11pt;
+    line-height: 0px;     /*coloca a legenda no fundo*/
+    padding: 5px;
+
+}
+
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+    cursor: pointer;
+    
+}
+
+
+
+
+ul#album-fotos li#foto01{
+    background: url("../images/phpForm1.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 100px 100px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+
+}
+
+ul#album-fotos li#foto02{
+    background: url("../images/phpEmpresa1.png");
+    background-size:     contain;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;       /*centra a imagem a meio*/
+    background-size: 100px 100px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    ul#album-fotos li {
+        float:left;
+        width: 100px;
+        height: 100px;
+    }
+  }
