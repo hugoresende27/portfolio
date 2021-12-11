@@ -96,6 +96,20 @@ ul#album-fotos li#foto03:hover{
 
 }
 ul#album-fotos li#foto04{
+    background: url("../images/phpCookies.png");
+    background-size:     contain;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;       /*centra a imagem a meio*/
+    background-size: 100px 100px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+
+}
+ul#album-fotos li#foto05{
     background: url("../images/php_cookies.png");
     background-size:     contain;                      /* <------ */
     background-repeat:   no-repeat;
@@ -104,7 +118,7 @@ ul#album-fotos li#foto04{
     background-color: aliceblue;
 }
 
-ul#album-fotos li#foto03:hover{
+ul#album-fotos li#foto05:hover{
     background-position: 0px 0px;
     background-size: 100px 100px;
 
