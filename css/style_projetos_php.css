@@ -179,6 +179,20 @@ ul#album-fotos li#foto09:hover{
     background-size: 100px 100px;
 
 }
+ul#album-fotos li#foto10{
+    background: url("../images/form2_php.png");
+    background-size:     contain;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;       /*centra a imagem a meio*/
+    background-size: 100px 100px;
+    background-color: aliceblue;
+}
+
+ul#album-fotos li#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+
+}
 
 
 
