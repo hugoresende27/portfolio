@@ -23,6 +23,10 @@ background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
    --yellow: #daa520;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;*/
     font-family: 'Azeret Mono', monospace;
