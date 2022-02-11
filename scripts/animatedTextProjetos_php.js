@@ -1,7 +1,7 @@
 const textEl2 = document.getElementById('textoProjetos')
-const tituloProjetos = "Alguns projetos meus em PHP"
+const tituloProjetos = "Alguns projetos meus em PHP e Laravel"
 let index2 = 1
-let speed2 = 200 
+let speed2 = 150 
 
 escreveTexto2()
 
