@@ -193,6 +193,39 @@ div .box.caixas:hover{
     background-color: #c4941c;
 }
 
+.lang-switch{
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1001;
+    display: flex;
+    background: #1c1c1c;
+    border: .1rem solid #fff3;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.lang-switch .lang-btn{
+    padding: .8rem 1.4rem;
+    background: transparent;
+    color: #ccc;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: .05rem;
+}
+
+.lang-switch .lang-btn.active{
+    background: var(--yellow);
+    color: #111;
+}
+
+.lang-switch .lang-btn:hover:not(.active){
+    color: var(--yellow);
+}
+
+
 .home{
     display: flex;
     justify-content: center;
@@ -654,6 +687,20 @@ div .box.caixas:hover{
     100%{ left: 0; opacity: 0; }
 }
 
+@keyframes flow-down-out{
+    0%{ top: 0; opacity: 0; }
+    8%{ opacity: 1; }
+    92%{ opacity: 1; }
+    100%{ top: calc(100% - .9rem); opacity: 0; }
+}
+
+@keyframes flow-down-in{
+    0%{ top: calc(100% - .9rem); opacity: 0; }
+    8%{ opacity: 1; }
+    92%{ opacity: 1; }
+    100%{ top: 0; opacity: 0; }
+}
+
 @keyframes pulse{
     0%{ box-shadow: 0 0 0 0 rgba(92,219,149,.55); }
     70%{ box-shadow: 0 0 0 1rem rgba(92,219,149,0); }
@@ -825,7 +872,37 @@ div .box.caixas:hover{
     html{
         font-size: 50%;
     }
- 
+
+    .sync-flow{
+        flex-direction: column;
+    }
+
+    .sync-node{
+        width: 100%;
+        max-width: 24rem;
+    }
+
+    .sync-line{
+        width: .3rem;
+        height: 3rem;
+        margin: .5rem 0;
+        flex: none;
+    }
+
+    .sync-line .dot{
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .sync-line .dot-out{
+        animation-name: flow-down-out;
+    }
+
+    .sync-line .dot-in{
+        animation-name: flow-down-in;
+    }
+
  }
 
 @media (max-width:400px){
@@ -869,17 +946,11 @@ div .box.caixas:hover{
     }
 
     .sync-node{
-        min-width: 8rem;
         padding: 1rem 1.2rem;
     }
 
     .sync-node span{
         font-size: 1.1rem;
-    }
-
-    .sync-line{
-        flex-basis: 3rem;
-        min-width: 2.5rem;
     }
 
 }

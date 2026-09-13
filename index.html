@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hugo Resende — Integrações ERP, Loja Online e Marketplaces</title>
-    <meta name="description" content="Ligo o seu ERP à loja online e aos marketplaces, sem correções à mão. Programador backend especializado em integrações de e-commerce para distribuidores e retalho em Portugal.">
+    <title data-i18n="meta-title">Hugo Resende — Integrações ERP, Loja Online e Marketplaces</title>
+    <meta name="description" content="Ligo o seu ERP à loja online e aos marketplaces, sem correções à mão. Programador backend especializado em integrações de e-commerce para distribuidores e retalho em Portugal." data-i18n-content="meta-description">
     <link rel="shortcut icon" href="images/favicon.png">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -17,6 +17,12 @@
 <body>
     <base href="index.html"/>
 
+<!-- language switch -->
+<div class="lang-switch" role="group" aria-label="idioma / language">
+    <button type="button" class="lang-btn active" data-lang="pt">PT</button>
+    <button type="button" class="lang-btn" data-lang="en">EN</button>
+</div>
+
 <!-- header section starts  -->
 
 <header>
@@ -24,17 +30,17 @@
     <div class="user">
         <a href="https://github.com/hugoresende27" target="_blank"><img src="images/pic.jpg" alt="picperfil" id="foto_perfil"></a>
         <h3 class="name">Hugo Resende</h3>
-        <p class="post">Integrações ERP &amp; E-commerce</p>
+        <p class="post" data-i18n="header-post">Integrações ERP &amp; E-commerce</p>
     </div>
 
     <nav class="navbar">
         <ul>
-            <li><a href="#home" class="ripple">home</a></li>
-            <li><a href="#problema" class="ripple">problema</a></li>
-            <li><a href="#servicos" class="ripple">serviços</a></li>
-            <li><a href="#diagnostico" class="ripple">diagnóstico</a></li>
-            <li><a href="#experiencia" class="ripple">experiência</a></li>
-            <li><a href="#contact" class="ripple">contacto</a></li>
+            <li><a href="#home" class="ripple" data-i18n="nav-home">home</a></li>
+            <li><a href="#problema" class="ripple" data-i18n="nav-problema">problema</a></li>
+            <li><a href="#servicos" class="ripple" data-i18n="nav-servicos">serviços</a></li>
+            <li><a href="#diagnostico" class="ripple" data-i18n="nav-diagnostico">diagnóstico</a></li>
+            <li><a href="#experiencia" class="ripple" data-i18n="nav-experiencia">experiência</a></li>
+            <li><a href="#contact" class="ripple" data-i18n="nav-contact">contacto</a></li>
         </ul>
     </nav>
 
@@ -61,7 +67,7 @@
     </div>
 
     <h1><span id="texto"></span></h1>
-    <p><strong>Programador backend especializado em integrações de e-commerce. Stock, preços e encomendas
+    <p><strong data-i18n="hero-subtitle">Programador backend especializado em integrações de e-commerce. Stock, preços e encomendas
         sincronizados entre todos os canais, de forma fiável.</strong></p>
 
     <div class="sync-flow" aria-hidden="true">
@@ -75,7 +81,7 @@
         </div>
         <div class="sync-node">
             <i class="fas fa-store"></i>
-            <span>Loja Online</span>
+            <span data-i18n="sync-loja">Loja Online</span>
         </div>
         <div class="sync-line">
             <span class="dot dot-out"></span>
@@ -87,9 +93,9 @@
         </div>
     </div>
 
-    <p class="sync-status"><span class="pulse"></span> stock, preços e encomendas em sincronização contínua</p>
+    <p class="sync-status"><span class="pulse"></span> <span data-i18n="sync-status-text">stock, preços e encomendas em sincronização contínua</span></p>
 
-    <a href="#contact"><button class="btn">Falar sobre a minha integração <i class="fas fa-paper-plane"></i></button></a>
+    <a href="#contact"><button class="btn"><span data-i18n="hero-cta">Falar sobre a minha integração</span> <i class="fas fa-paper-plane"></i></button></a>
 
 </section>
 
@@ -99,16 +105,16 @@
 
 <section class="about" id="problema">
 
-<h1 class="heading"> <span>reconhece</span> algum destes? </h1>
+<h1 class="heading" data-i18n-html="problema-heading"> <span>reconhece</span> algum destes? </h1>
 
 <div class="row">
 
     <ul class="problemas">
-        <li><i class="fas fa-exclamation-circle"></i> O site mostra "disponível", o cliente compra, e afinal não há stock.</li>
-        <li><i class="fas fa-exclamation-circle"></i> Alguém passa horas por semana a exportar e importar ficheiros entre o ERP e a loja.</li>
-        <li><i class="fas fa-exclamation-circle"></i> Os preços não batem certo entre o site, os marketplaces e a loja física.</li>
-        <li><i class="fas fa-exclamation-circle"></i> As encomendas dos marketplaces entram à mão no ERP, uma a uma.</li>
-        <li><i class="fas fa-exclamation-circle"></i> A integração foi feita há anos por alguém que já não responde.</li>
+        <li><i class="fas fa-exclamation-circle"></i> <span data-i18n="problema-1">O site mostra "disponível", o cliente compra, e afinal não há stock.</span></li>
+        <li><i class="fas fa-exclamation-circle"></i> <span data-i18n="problema-2">Alguém passa horas por semana a exportar e importar ficheiros entre o ERP e a loja.</span></li>
+        <li><i class="fas fa-exclamation-circle"></i> <span data-i18n="problema-3">Os preços não batem certo entre o site, os marketplaces e a loja física.</span></li>
+        <li><i class="fas fa-exclamation-circle"></i> <span data-i18n="problema-4">As encomendas dos marketplaces entram à mão no ERP, uma a uma.</span></li>
+        <li><i class="fas fa-exclamation-circle"></i> <span data-i18n="problema-5">A integração foi feita há anos por alguém que já não responde.</span></li>
     </ul>
 
 </div>
@@ -120,36 +126,36 @@
 <!-- serviços section starts  -->
 <section class="education" id="servicos">
 
-<h1 class="heading"> como <span>resolvo</span> </h1>
+<h1 class="heading" data-i18n-html="servicos-heading"> como <span>resolvo</span> </h1>
 
 <div class="box-container">
 
     <div class="box">
         <i class="fas fa-sync-alt"></i>
-        <span>sincronização</span>
-        <h3>ERP ↔ loja ↔ marketplaces</h3>
-        <p>Stock, preços e produtos alinhados automaticamente em todos os canais. Sem exportações manuais, sem vendas de produtos sem stock.</p>
+        <span data-i18n="serv1-tag">sincronização</span>
+        <h3 data-i18n="serv1-title">ERP ↔ loja ↔ marketplaces</h3>
+        <p data-i18n="serv1-desc">Stock, preços e produtos alinhados automaticamente em todos os canais. Sem exportações manuais, sem vendas de produtos sem stock.</p>
     </div>
 
     <div class="box">
         <i class="fas fa-file-import"></i>
-        <span>encomendas</span>
-        <h3>Importação automática de encomendas</h3>
-        <p>Encomendas dos marketplaces e da loja a entrar direto no ERP, com o documento fiscal correto (e-Fatura, SAF-T).</p>
+        <span data-i18n="serv2-tag">encomendas</span>
+        <h3 data-i18n="serv2-title">Importação automática de encomendas</h3>
+        <p data-i18n="serv2-desc">Encomendas dos marketplaces e da loja a entrar direto no ERP, com o documento fiscal correto (e-Fatura, SAF-T).</p>
     </div>
 
     <div class="box">
         <i class="fas fa-stream"></i>
-        <span>catálogo</span>
-        <h3>Feeds e catálogo por canal</h3>
-        <p>Cada marketplace no seu formato, com os atributos e categorias certos.</p>
+        <span data-i18n="serv3-tag">catálogo</span>
+        <h3 data-i18n="serv3-title">Feeds e catálogo por canal</h3>
+        <p data-i18n="serv3-desc">Cada marketplace no seu formato, com os atributos e categorias certos.</p>
     </div>
 
     <div class="box" id="caixa1">
         <i class="fas fa-life-ring"></i>
-        <span>recuperação</span>
-        <h3>Recuperar integrações abandonadas</h3>
-        <p>Diagnóstico e reparação de ligações antigas que ninguém mantém — ou substituição, quando já não compensa arranjar.</p>
+        <span data-i18n="serv4-tag">recuperação</span>
+        <h3 data-i18n="serv4-title">Recuperar integrações abandonadas</h3>
+        <p data-i18n="serv4-desc">Diagnóstico e reparação de ligações antigas que ninguém mantém — ou substituição, quando já não compensa arranjar.</p>
     </div>
 
 </div>
@@ -162,13 +168,13 @@
 
 <section class="diagnostico" id="diagnostico">
 
-<h1 class="heading"> começamos por um <span>diagnóstico</span> </h1>
+<h1 class="heading" data-i18n-html="diagnostico-heading"> começamos por um <span>diagnóstico</span> </h1>
 
 <div class="row">
     <div class="info">
-        <p>Antes de qualquer compromisso grande, faço um diagnóstico da sua operação: analiso como os sistemas
+        <p data-i18n="diag-p1">Antes de qualquer compromisso grande, faço um diagnóstico da sua operação: analiso como os sistemas
             estão ligados, onde está a falhar, e entrego um documento com o que se resolve e o que custa.</p>
-        <p>Assim sabe exatamente o que está a comprar antes de avançar.</p>
+        <p data-i18n="diag-p2">Assim sabe exatamente o que está a comprar antes de avançar.</p>
     </div>
 </div>
 
@@ -180,26 +186,26 @@
 
 <section class="experiencia" id="experiencia">
 
-<h1 class="heading"> <span>experiência</span> </h1>
+<h1 class="heading" data-i18n-html="experiencia-heading"> <span>experiência</span> </h1>
 
 <div class="box-container">
 
     <div class="box">
-        <h3>Plataformas de e-commerce</h3>
-        <p>Vários anos em desenvolvimento backend de plataformas de e-commerce, incluindo uma plataforma
+        <h3 data-i18n="exp1-title">Plataformas de e-commerce</h3>
+        <p data-i18n="exp1-desc">Vários anos em desenvolvimento backend de plataformas de e-commerce, incluindo uma plataforma
             internacional multi-mercado com integrações entre ERP, loja, pagamentos e logística.</p>
     </div>
 
     <div class="box">
-        <h3>Addons CS-Cart</h3>
-        <p>Dois addons publicados e aprovados no marketplace oficial do CS-Cart:
+        <h3 data-i18n="exp2-title">Addons CS-Cart</h3>
+        <p data-i18n-html="exp2-desc-html">Dois addons publicados e aprovados no marketplace oficial do CS-Cart:
             <strong>Audit Trail Pro</strong> e <strong>Generate Admin</strong>.</p>
-        <p><a href="https://marketplace.cs-cart.com/index.php?dispatch=companies.products&amp;company_id=2279" target="_blank">ver no marketplace CS-Cart →</a></p>
+        <p><a href="https://marketplace.cs-cart.com/index.php?dispatch=companies.products&amp;company_id=2279" target="_blank" data-i18n="exp2-link">ver no marketplace CS-Cart →</a></p>
     </div>
 
     <div class="box">
-        <h3>Requisitos legais &amp; fiscais</h3>
-        <p>Experiência em requisitos legais e fiscais de e-commerce em Portugal e noutros mercados europeus
+        <h3 data-i18n="exp3-title">Requisitos legais &amp; fiscais</h3>
+        <p data-i18n="exp3-desc">Experiência em requisitos legais e fiscais de e-commerce em Portugal e noutros mercados europeus
             (faturação, RGPD, verificação de idade, checkout restrito).</p>
     </div>
 
@@ -213,8 +219,8 @@
 
 <section class="stack" id="stack">
     <span class="stack-label">stack</span>
-    <p>PHP · MySQL · REST APIs · Redis · integrações ERP · CS-Cart · Magento · PrestaShop · WooCommerce · marketplaces (Worten, Fnac, Amazon)</p>
-    <p class="arquivo"><a href="js_projetos.html">ver projetos pessoais mais antigos →</a></p>
+    <p data-i18n="stack-list">PHP · MySQL · REST APIs · Redis · integrações ERP · CS-Cart · Magento · PrestaShop · WooCommerce · marketplaces (Worten, Fnac, Amazon)</p>
+    <p class="arquivo"><a href="js_projetos.html" data-i18n="stack-archive-link">ver projetos pessoais mais antigos →</a></p>
 </section>
 
 <!-- stack section ends -->
@@ -223,20 +229,20 @@
 
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>falamos</span>? </h1>
+<h1 class="heading" data-i18n-html="contacto-heading"> <span>falamos</span>? </h1>
 
 <div class="row">
 
     <div class="content">
 
-        <h3 class="title">Descreva-me a sua operação</h3>
-        <p class="contact-lead">Descreva-me como está montada a sua operação e digo-lhe, sem compromisso, se é
+        <h3 class="title" data-i18n="contact-title">Descreva-me a sua operação</h3>
+        <p class="contact-lead" data-i18n="contact-lead">Descreva-me como está montada a sua operação e digo-lhe, sem compromisso, se é
             recuperável ou se compensa refazer.</p>
 
         <div class="info">
             <h3>
                 <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hugoresende27@gmail.com&amp;su=Contacto" target="_blank" rel="noopener"> <i class="fas fa-envelope"></i> hugoresende27@gmail.com</a>
-                <button type="button" class="copy-email" title="copiar email" aria-label="copiar email"><i class="fas fa-copy"></i></button>
+                <button type="button" class="copy-email" data-i18n-title="copy-email-label" title="copiar email" aria-label="copiar email"><i class="fas fa-copy"></i></button>
             </h3>
             <h3><a href="tel:00351919657338"> <i class="fas fa-phone"></i> +351-919-657-338 </a></h3>
             <h3> <a href="https://github.com/hugoresende27" target="_blank"><i class="fa fa-star"></i> GitHub </a></h3>
@@ -249,11 +255,11 @@
 
     <form id="contactForm" action="mailto:hugoresende27@gmail.com" method="post" enctype="text/plain">
 
-        <input type="text" id="campo-nome" placeholder="nome" class="box">
-        <input type="email" id="campo-email" placeholder="email" class="box">
-        <input type="text" id="campo-loja" placeholder="a sua loja / ERP" class="box">
-        <textarea id="campo-mensagem" cols="30" rows="10" class="box message" placeholder="descreva a sua operação"></textarea>
-        <button type="submit" class="btn"> Contactar <i class="fas fa-paper-plane"></i> </button>
+        <input type="text" id="campo-nome" data-i18n-placeholder="ph-nome" placeholder="nome" class="box">
+        <input type="email" id="campo-email" data-i18n-placeholder="ph-email" placeholder="email" class="box">
+        <input type="text" id="campo-loja" data-i18n-placeholder="ph-loja" placeholder="a sua loja / ERP" class="box">
+        <textarea id="campo-mensagem" data-i18n-placeholder="ph-mensagem" cols="30" rows="10" class="box message" placeholder="descreva a sua operação"></textarea>
+        <button type="submit" class="btn"><span data-i18n="contact-submit">Contactar</span> <i class="fas fa-paper-plane"></i></button>
 
     </form>
 
@@ -276,6 +282,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
+<script src="./scripts/i18n.js"></script>
 <script src="./scripts/script.js"></script>
 <script src="./scripts/relogio.js"></script>
 <script src="./scripts/ripples.js"></script>

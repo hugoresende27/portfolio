@@ -1,20 +1,31 @@
-const textEl = document.getElementById('texto')
+(function () {
 
-const text = "Ligo o seu ERP à loja online e aos marketplaces — sem correções à mão."
+    const textEl = document.getElementById('texto')
 
-let index = 1
-let speed = 25
+    let index = 1
+    let speed = 25
+    let timer = null
 
-escreveTexto()
+    function escreveTexto(text) {
+        clearTimeout(timer)
+        index = 1
+        textEl.textContent = ''
 
-function escreveTexto() {
-    textEl.innerText = text.slice(0, index)
+        function passo() {
+            textEl.textContent = text.slice(0, index)
+            index++
+            if (index <= text.length) {
+                timer = setTimeout(passo, speed)
+            }
+        }
 
-    index++
-
-    if (index <= text.length) {
-        setTimeout(escreveTexto , speed)
+        passo()
     }
-}
+
+    document.addEventListener('languagechange', function (e) {
+        escreveTexto(e.detail.dict['hero-headline'])
+    })
+
+})()
 
 /////////////////////////////////////////////////////////////////////////////////////

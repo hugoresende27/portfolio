@@ -8,6 +8,11 @@ $(document).ready(function () {
             + '&body=' + encodeURIComponent(body);
     }
 
+    function currentDict() {
+        const lang = (window.i18n && window.i18n.getLang()) || 'pt';
+        return window.i18n.translations[lang];
+    }
+
     $('.copy-email').on('click', function () {
         const btn = $(this);
 
@@ -23,17 +28,19 @@ $(document).ready(function () {
     $('#contactForm').on('submit', function (e) {
         e.preventDefault();
 
+        const dict = currentDict();
+
         const nome = $('#campo-nome').val().trim();
         const emailCliente = $('#campo-email').val().trim();
         const loja = $('#campo-loja').val().trim();
         const mensagem = $('#campo-mensagem').val().trim();
 
-        const corpo = 'Nome: ' + nome
-            + '\nEmail: ' + emailCliente
-            + '\nLoja / ERP: ' + loja
+        const corpo = dict['email-label-nome'] + ': ' + nome
+            + '\n' + dict['email-label-email'] + ': ' + emailCliente
+            + '\n' + dict['email-label-loja'] + ': ' + loja
             + '\n\n' + mensagem;
 
-        window.open(gmailComposeUrl('Contacto via portefólio', corpo), '_blank');
+        window.open(gmailComposeUrl(dict['email-subject'], corpo), '_blank');
     });
 
 });
