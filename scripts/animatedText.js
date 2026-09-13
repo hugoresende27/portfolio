@@ -1,9 +1,9 @@
 const textEl = document.getElementById('texto')
 
-const text = "Hugo Resende"
+const text = "Ligo o seu ERP à loja online e aos marketplaces — sem correções à mão."
 
 let index = 1
-let speed = 350 
+let speed = 25
 
 escreveTexto()
 
@@ -11,11 +11,10 @@ function escreveTexto() {
     textEl.innerText = text.slice(0, index)
 
     index++
-    //if ( index > text.length) {/*PARA COMEÇAR A ESCREVER DE NOVO QUANDO CHEGAR AO FIM DO TEXTO */
-      //  index = 1
-  //  }
 
-    setTimeout(escreveTexto , speed)
+    if (index <= text.length) {
+        setTimeout(escreveTexto , speed)
+    }
 }
 
 /////////////////////////////////////////////////////////////////////////////////////

@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hugo Resende @Web Developer - Portefólio</title>
+    <title>Hugo Resende — Integrações ERP, Loja Online e Marketplaces</title>
+    <meta name="description" content="Ligo o seu ERP à loja online e aos marketplaces, sem correções à mão. Programador backend especializado em integrações de e-commerce para distribuidores e retalho em Portugal.">
     <link rel="shortcut icon" href="images/favicon.png">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/styleKinetic.css">
     <link rel="stylesheet" href="./css/styleRipple.css">
 
 </head>
-<body onload="move()">
+<body>
     <base href="index.html"/>
-    
+
 <!-- header section starts  -->
 
 <header>
@@ -24,17 +24,17 @@
     <div class="user">
         <a href="https://github.com/hugoresende27" target="_blank"><img src="images/pic.jpg" alt="picperfil" id="foto_perfil"></a>
         <h3 class="name">Hugo Resende</h3>
-        <p class="post">Web Programmer</p>
+        <p class="post">Integrações ERP &amp; E-commerce</p>
     </div>
 
     <nav class="navbar">
         <ul>
             <li><a href="#home" class="ripple">home</a></li>
-            <li><a href="#about"class="ripple">sobre</a></li>
-            <li><a href="#education"class="ripple">formação</a></li>
-            <li><a href="#portfolio"class="ripple">portefolio</a></li>
-            <li><a href="#contact"class="ripple">contacto</a></li>       
-            <li><a href="https://www.youtube.com/watch?v=j6T32WGyz_o&list=PLk294aochS5C1JYXVvF0RJAhFUaApbB2L"class="ripple">tutorials</a></li>       
+            <li><a href="#problema" class="ripple">problema</a></li>
+            <li><a href="#servicos" class="ripple">serviços</a></li>
+            <li><a href="#diagnostico" class="ripple">diagnóstico</a></li>
+            <li><a href="#experiencia" class="ripple">experiência</a></li>
+            <li><a href="#contact" class="ripple">contacto</a></li>
         </ul>
     </nav>
 
@@ -50,8 +50,8 @@
 <section class="home" id="home">
 
     <div id=relogio>
-     
-     
+
+
         <div class="relogio">
             <div class="ponteiro horas"></div>
             <div class="ponteiro minutos"></div>
@@ -60,252 +60,200 @@
         </div>
     </div>
 
-     <h3>BEM VINDO !</h3>
     <h1><span id="texto"></span></h1>
-    <p><strong>Web Developer, estudante de programação e desenvolvimento para Web, aqui estão presentes alguns dos meus projectos e percurso formativo 
-       </strong></p>
-    <!-- <p id="texto"></p> -->
-    
-<div id="exper">
-    <div id="kinetic">
+    <p><strong>Programador backend especializado em integrações de e-commerce. Stock, preços e encomendas
+        sincronizados entre todos os canais, de forma fiável.</strong></p>
 
-    <div id="myProgress">
-        <div id="myBar"></div>
+    <div class="sync-flow" aria-hidden="true">
+        <div class="sync-node">
+            <i class="fas fa-database"></i>
+            <span>ERP</span>
+        </div>
+        <div class="sync-line">
+            <span class="dot dot-out"></span>
+            <span class="dot dot-in"></span>
+        </div>
+        <div class="sync-node">
+            <i class="fas fa-store"></i>
+            <span>Loja Online</span>
+        </div>
+        <div class="sync-line">
+            <span class="dot dot-out"></span>
+            <span class="dot dot-in"></span>
+        </div>
+        <div class="sync-node">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Marketplaces</span>
+        </div>
     </div>
-</div>  
-    </div>
-    <!-- <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a> -->
-    <a name="hom">
+
+    <p class="sync-status"><span class="pulse"></span> stock, preços e encomendas em sincronização contínua</p>
+
+    <a href="#contact"><button class="btn">Falar sobre a minha integração <i class="fas fa-paper-plane"></i></button></a>
+
 </section>
 
 <!-- home section ends -->
 
-<!-- about section starts  -->
+<!-- problema section starts  -->
 
-<section class="about">
+<section class="about" id="problema">
 
-<h1 class="heading" id="about"> <span>sobre</span> mim </h1>
+<h1 class="heading"> <span>reconhece</span> algum destes? </h1>
 
 <div class="row">
 
+    <ul class="problemas">
+        <li><i class="fas fa-exclamation-circle"></i> O site mostra "disponível", o cliente compra, e afinal não há stock.</li>
+        <li><i class="fas fa-exclamation-circle"></i> Alguém passa horas por semana a exportar e importar ficheiros entre o ERP e a loja.</li>
+        <li><i class="fas fa-exclamation-circle"></i> Os preços não batem certo entre o site, os marketplaces e a loja física.</li>
+        <li><i class="fas fa-exclamation-circle"></i> As encomendas dos marketplaces entram à mão no ERP, uma a uma.</li>
+        <li><i class="fas fa-exclamation-circle"></i> A integração foi feita há anos por alguém que já não responde.</li>
+    </ul>
+
+</div>
+
+</section>
+
+<!-- problema section ends -->
+
+<!-- serviços section starts  -->
+<section class="education" id="servicos">
+
+<h1 class="heading"> como <span>resolvo</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-sync-alt"></i>
+        <span>sincronização</span>
+        <h3>ERP ↔ loja ↔ marketplaces</h3>
+        <p>Stock, preços e produtos alinhados automaticamente em todos os canais. Sem exportações manuais, sem vendas de produtos sem stock.</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-file-import"></i>
+        <span>encomendas</span>
+        <h3>Importação automática de encomendas</h3>
+        <p>Encomendas dos marketplaces e da loja a entrar direto no ERP, com o documento fiscal correto (e-Fatura, SAF-T).</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-stream"></i>
+        <span>catálogo</span>
+        <h3>Feeds e catálogo por canal</h3>
+        <p>Cada marketplace no seu formato, com os atributos e categorias certos.</p>
+    </div>
+
+    <div class="box" id="caixa1">
+        <i class="fas fa-life-ring"></i>
+        <span>recuperação</span>
+        <h3>Recuperar integrações abandonadas</h3>
+        <p>Diagnóstico e reparação de ligações antigas que ninguém mantém — ou substituição, quando já não compensa arranjar.</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- serviços section ends -->
+
+<!-- diagnóstico section starts  -->
+
+<section class="diagnostico" id="diagnostico">
+
+<h1 class="heading"> começamos por um <span>diagnóstico</span> </h1>
+
+<div class="row">
     <div class="info">
-        <h3> <span> nome:</span>hugo resende </h3>
-        <h3> <span> base:</span>Portugal &#9992</h3>
-        <h3> <span> qualificações:</span>Nivel 4 Téc. Informática </h3>
-        <h3> <span> nível : </span> Web developer </h3>
-        <h3> <span> linguas : </span> PT EN ES </h3>
-        
-        <a href=https://files.fm/f/d3eu64efw target="_blank"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        <p>Antes de qualquer compromisso grande, faço um diagnóstico da sua operação: analiso como os sistemas
+            estão ligados, onde está a falhar, e entrego um documento com o que se resolve e o que custa.</p>
+        <p>Assim sabe exatamente o que está a comprar antes de avançar.</p>
     </div>
-
-    <div class="counter">
-        
-        <div class="box caixas">
-            <a href="https://github.com/hugoresende27/Python-Outros-Exercicios" target="_blank">
-            <span>Python</span>  </a>
-        </div>
-        
-        
-        <div class="box caixas">
-            <a href="https://github.com/hugoresende27/Java" target="_blank">
-            <span>Java</span> </a>
-        </div>
-        
-        
-        <div class="box caixas">
-            <a href="https://github.com/hugoresende27/c-_Exercicios" target="_blank">
-            <span>C/C++</span> </a>
-        </div>
-        
-        
-        <div class="box caixas">
-            <a href="js_projetos_php.html">
-            <span>PHP</span> </a>
-        </div>
-        
-
-        <div class="box caixas">
-            <a href="https://github.com/hugoresende27/HTML_CSS_Modulo_0793" target="_blank" ><span>HTML 5</span>
-            <span>CSS</span> </a>
-        </div>
-
-        <div class="box caixas">
-            <a href="js_projetos.html"><span>Javascript</span></a>
-        </div>
-        
-        
-    </div>
-
 </div>
 
 </section>
 
-<!-- about section ends -->
+<!-- diagnóstico section ends -->
 
-<!-- education section starts  -->
-<section class="education" id="education">
+<!-- experiência section starts  -->
 
-<h1 class="heading"> my <span>education</span> </h1>
+<section class="experiencia" id="experiencia">
+
+<h1 class="heading"> <span>experiência</span> </h1>
 
 <div class="box-container">
 
     <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Maio 2021-Março 2022</span>
-        <a href="https://hugoresende27.wixsite.com/website" target="_blank">
-        <h3>Técnico de Informática - Sistemas (EFA Técnico de Informática)</h3>
-        <p>O curso de Informática de Sistemas dá formação abrangente e sólida a um futuro Técnico de Informática, preparado para o mundo profissional. Com uma base formativa tão alargada, abrangendo áreas de hardware e arquitetura de computadores, instalação e administração de redes, base de dados, sistemas operativos, programação em C++ e Java, e ainda tecnologias Web, como JavaScript, HTML e CSS.</p>
-        </a>
+        <h3>Plataformas de e-commerce</h3>
+        <p>Vários anos em desenvolvimento backend de plataformas de e-commerce, incluindo uma plataforma
+            internacional multi-mercado com integrações entre ERP, loja, pagamentos e logística.</p>
     </div>
 
     <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Fev 2021-Maio 2021</span>
-        <a href="https://www.linkedin.com/in/hugo-resende-781ab1111/" target="_blank">
-        <h3>Linguagens de Programação - Programação WEB</h3>
-        <p>Utilizar as principais metodologias e técnicas de desenvolvimento de software, reconhecer e desenvolver algoritmos, desenvolver programas com ligação a bases de dados, criar testes aplicacionais utilizando diferentes metodologias.</p>
-        </a>
+        <h3>Addons CS-Cart</h3>
+        <p>Dois addons publicados e aprovados no marketplace oficial do CS-Cart:
+            <strong>Audit Trail Pro</strong> e <strong>Generate Admin</strong>.</p>
+        <p><a href="https://marketplace.cs-cart.com/index.php?dispatch=companies.products&amp;company_id=2279" target="_blank">ver no marketplace CS-Cart →</a></p>
     </div>
 
     <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Setembro 2021</span>
-        <h3>Power BI (UFCD 9983)</h3>
-        <p>O Power BI é um serviço de análise de negócios da Microsoft lançado a 24 de julho de 2015. O objetivo do Power BI é fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards.</p>
+        <h3>Requisitos legais &amp; fiscais</h3>
+        <p>Experiência em requisitos legais e fiscais de e-commerce em Portugal e noutros mercados europeus
+            (faturação, RGPD, verificação de idade, checkout restrito).</p>
     </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Junho 2021</span>
-        <h3>Python (UFCD 0804)</h3>
-        <p>Algoritmos Reconhecer e desenvolver algoritmos. Introdução à Lógica de Programação. Linguagem Python, estruturas de decisão, estruturas de repetição, funções, listas , dicionários, classes e objetos</p>
-    </div>
-
-    <div class="box" id="caixa1">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Dezembro 2021</span>
-        <h3>Princípios metodológicos de programação (UFCD 0806)</h3>
-        <p>Técnicas de construção de uma Macro, Estruturas de controlo do programa, Funções e Procedimentos,  Programação do Excel usando VBA,  adicionar uma interface gráfica </p>
-    </div>
-
-    <div class="box" id="caixa1">
-        <i class="fas fa-graduation-cap"></i>
-        <span></span>
-        <h3></h3>
-        <p></p>
-    </div>
-    
-   
-<!--
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2019</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2020</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
--->
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> my <span>portfolio</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <h1 class="titulos_portefolio">Laravel</h1>
-        <a href="js_projetos_laravel.html" ><img src="images/img_lara.png" alt="imagem de c">
-        </a>
-    </div>
-
-    <div class="box">
-        <h1 class="titulos_portefolio">C / C++</h1>
-        <a href="https://hugoresende27.github.io/memoriasEmC/" target="_blank"><img src="images/img_C.png" alt="imagem de c">
-        </a>
-    </div>
-
-    <div class="box">
-        <h1 class="titulos_portefolio">Python</h1>
-        <a href="https://github.com/hugoresende27/Python_Cursos" target="_blank"><img src="images/img_Python.png" alt="imagem de python"></a>
-    </div>
-
-    <div class="box">
-        <h1 class="titulos_portefolio">PHP</h1>
-        <a href="js_projetos_php.html"><img src="images/img_php.png" alt="imagem de php"></a>
-    </div>
-
-    <div class="box">
-        <h1 class="titulos_portefolio" >Javascipt</h1>
-        <a href="js_projetos.html"><img src="images/img_javascript.png" alt="imagem de js"></a>
-    </div>
-   
-    <!-- <div class="box">
-        
-        <a href="https://hugoresende27.github.io/0792--Web-em-hypertexto/index.html" target="_blank">
-            <img src="images/img_site.jpg" alt="imagem de website">
-        </a>
-    </div>
-
-    <div class="box">
-        <img src="images/img6.jpg" alt="">
-    </div> -->
 
 </div>
 
 </section>
 
-<!-- portfolio section ends -->
+<!-- experiência section ends -->
+
+<!-- stack section starts  -->
+
+<section class="stack" id="stack">
+    <span class="stack-label">stack</span>
+    <p>PHP · MySQL · REST APIs · Redis · integrações ERP · CS-Cart · Magento · PrestaShop · WooCommerce · marketplaces (Worten, Fnac, Amazon)</p>
+    <p class="arquivo"><a href="js_projetos.html">ver projetos pessoais mais antigos →</a></p>
+</section>
+
+<!-- stack section ends -->
 
 <!-- contact section starts  -->
 
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>contacto</span> me </h1>
+<h1 class="heading"> <span>falamos</span>? </h1>
 
 <div class="row">
 
     <div class="content">
 
-        <h3 class="title">Informações de contacto</h3>
+        <h3 class="title">Descreva-me a sua operação</h3>
+        <p class="contact-lead">Descreva-me como está montada a sua operação e digo-lhe, sem compromisso, se é
+            recuperável ou se compensa refazer.</p>
 
         <div class="info">
-            <h3><a href="mailto:hugoresende27@gmail.com"> <i class="fas fa-envelope"></i> hugoresende27@gmail.com</a> </h3>
+            <h3>
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hugoresende27@gmail.com&amp;su=Contacto" target="_blank" rel="noopener"> <i class="fas fa-envelope"></i> hugoresende27@gmail.com</a>
+                <button type="button" class="copy-email" title="copiar email" aria-label="copiar email"><i class="fas fa-copy"></i></button>
+            </h3>
             <h3><a href="tel:00351919657338"> <i class="fas fa-phone"></i> +351-919-657-338 </a></h3>
             <h3> <a href="https://github.com/hugoresende27" target="_blank"><i class="fa fa-star"></i> GitHub </a></h3>
-            <h3> <a href="https://www.linkedin.com/in/hugo-resende-781ab1111/" target="_blank"><i class="fa fa-star"></i> LinkedIn 
+            <h3> <a href="https://www.linkedin.com/in/hugo-resende-781ab1111/" target="_blank"><i class="fa fa-star"></i> LinkedIn
             </a> </h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Coimbra Portugal </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Coimbra, Portugal </h3>
         </div>
 
     </div>
 
-    <form action="mailto:hugoresende27@gmail.com" method="post" enctype="text/plain">
+    <form id="contactForm" action="mailto:hugoresende27@gmail.com" method="post" enctype="text/plain">
 
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane"></i> </button>
+        <input type="text" id="campo-nome" placeholder="nome" class="box">
+        <input type="email" id="campo-email" placeholder="email" class="box">
+        <input type="text" id="campo-loja" placeholder="a sua loja / ERP" class="box">
+        <textarea id="campo-mensagem" cols="30" rows="10" class="box message" placeholder="descreva a sua operação"></textarea>
+        <button type="submit" class="btn"> Contactar <i class="fas fa-paper-plane"></i> </button>
 
     </form>
 
@@ -331,8 +279,8 @@
 <script src="./scripts/script.js"></script>
 <script src="./scripts/relogio.js"></script>
 <script src="./scripts/ripples.js"></script>
-<script src="./scripts/loadingBar.js"></script>
 <script src="./scripts/animatedText.js"></script>
+<script src="./scripts/contact.js"></script>
 
 </body>
 </html>
