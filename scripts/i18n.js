@@ -117,6 +117,14 @@
         }
     }
 
+    function getLangFromUrl() {
+        try {
+            const lang = new URLSearchParams(window.location.search).get('lang');
+            if (lang === 'pt' || lang === 'en') return lang;
+        } catch (e) { /* ignore */ }
+        return null;
+    }
+
     function apply(lang) {
         const dict = translations[lang];
         if (!dict) return;
@@ -172,7 +180,12 @@
             });
         });
 
-        apply(getLang());
+        const urlLang = getLangFromUrl();
+        if (urlLang) {
+            setLang(urlLang);
+        } else {
+            apply(getLang());
+        }
     });
 
     window.i18n = { getLang: getLang, translations: translations };
