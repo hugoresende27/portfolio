@@ -389,35 +389,10 @@ div .box.caixas:hover{
 }
 
 .contact .row .content{
-    flex:1 1 30rem;
+    flex: 0 1 60rem;
+    max-width: 60rem;
     padding:4rem;
     padding-bottom: 0;
-}
-
-.contact .row form{
-    flex:1 1 45rem;
-    padding:2rem;
-    margin:2rem;
-    margin-bottom: 4rem;
-}
-
-.contact .row form .box{
-    padding:1.5rem;
-    margin:1rem 0;
-    background:#3333;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width:100%;
-}
-
-.contact .row form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.contact .row form .message{
-    height: 15rem;
-    resize: none;
 }
 
 .contact .row .content .title{
@@ -930,10 +905,6 @@ div .box.caixas:hover{
 
     .home h1{
         font-size: 2.8rem;
-    }
-
-    .contact .row form{
-        margin:3rem 0;
     }
 
     #relogio{

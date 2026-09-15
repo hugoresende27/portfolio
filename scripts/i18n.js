@@ -51,16 +51,7 @@
             'contacto-heading': ' <span>falamos</span>? ',
             'contact-title': 'Descreva-me a sua operação',
             'contact-lead': 'Descreva-me como está montada a sua operação e digo-lhe, sem compromisso, se é recuperável ou se compensa refazer.',
-            'copy-email-label': 'copiar email',
-            'ph-nome': 'nome',
-            'ph-email': 'email',
-            'ph-loja': 'a sua loja / ERP',
-            'ph-mensagem': 'descreva a sua operação',
-            'contact-submit': 'Contactar',
-            'email-subject': 'Contacto via portefólio',
-            'email-label-nome': 'Nome',
-            'email-label-email': 'Email',
-            'email-label-loja': 'Loja / ERP'
+            'copy-email-label': 'copiar email'
         },
         en: {
             'meta-title': 'Hugo Resende — ERP, Online Store & Marketplace Integrations',
@@ -112,16 +103,7 @@
             'contacto-heading': " let's <span>talk</span>? ",
             'contact-title': 'Tell me about your operation',
             'contact-lead': "Describe how your operation is set up and I'll tell you, with no obligation, whether it's worth fixing or better to rebuild.",
-            'copy-email-label': 'copy email',
-            'ph-nome': 'name',
-            'ph-email': 'email',
-            'ph-loja': 'your store / ERP',
-            'ph-mensagem': 'describe your operation',
-            'contact-submit': 'Contact',
-            'email-subject': 'Portfolio contact inquiry',
-            'email-label-nome': 'Name',
-            'email-label-email': 'Email',
-            'email-label-loja': 'Store / ERP'
+            'copy-email-label': 'copy email'
         }
     };
 
